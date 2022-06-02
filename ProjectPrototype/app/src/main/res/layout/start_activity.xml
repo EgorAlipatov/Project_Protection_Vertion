@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#96EAEA"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView60"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#D3AD25"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Record: points"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#42A6C6">
+
+        <Button
+            android:id="@+id/button60"
+            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Start the Game 60 sec" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView30"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#9F3318"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Record: points"/>
+        <LinearLayout
+            android:background="#7A6F6F"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+    <Button
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Start game for 30 sec"
+        android:id="@+id/button30"
+        />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        >
+    <Button
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/buttonNoTime"
+        android:text="Start Game without time" />
+    </LinearLayout>
+</LinearLayout>

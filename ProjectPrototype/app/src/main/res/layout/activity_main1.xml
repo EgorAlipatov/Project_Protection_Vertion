@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:gravity="center"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/fragmentTimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="20pt"
+            android:text="TIME:"
+            android:textColor="#EAB907"
+            android:textSize="15pt"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Ilayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/image1"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/star1" />
+
+        <ImageButton
+            android:id="@+id/image2"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image3"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image4"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image5"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image6"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image7"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Ilayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/image8"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image9"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image10"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image11"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image12"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image13"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image14"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Ilayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/image15"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image16"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image17"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image18"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image19"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image20"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image21"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Ilayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/image22"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image23"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image24"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image25"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image26"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image27"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image28"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Ilayout5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/image29"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image30"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image31"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image32"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image33"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image34"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image35"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Ilayout6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/image36"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image37"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image38"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image39"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image40"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image41"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image42"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Ilayout7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/image43"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image44"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image45"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image46"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image47"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image48"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+        <ImageButton
+            android:id="@+id/image49"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:src="@drawable/gray" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutPoints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewPoints"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="CURRENT_POINTS"
+            android:textColor="#16E6D3"
+            android:textSize="15pt"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
