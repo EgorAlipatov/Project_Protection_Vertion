@@ -1,7 +1,5 @@
 package com.example.projectprototype;
 
-import android.graphics.Color;
-
 public class Circle extends Figure {
     public Circle(int i, int j) {
         super.figureKey = 0;

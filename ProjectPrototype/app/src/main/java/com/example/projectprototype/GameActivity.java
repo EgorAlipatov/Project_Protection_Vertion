@@ -25,7 +25,6 @@ import java.util.TimerTask;
 public class GameActivity extends FragmentActivity {
 
     private Figure.ArraysHelper arraysHelper;
-    private Handler handlerProgress;
     private Handler handlerTime;
     private TextView textViewPoints;
     private int time;
@@ -65,26 +64,15 @@ public class GameActivity extends FragmentActivity {
     }
 
     private void startGame(int time) {
-        ProgressBar progressBar;
         TextView textView;
-        //progressBar = (ProgressBar) findViewById(R.id.timeLeft);
         textView = (TextView) findViewById(R.id.textView);
         if (time == 0) {
-            //progressBar.setVisibility(View.INVISIBLE);
             textView.setVisibility(View.INVISIBLE);
             time = 0x7fffffff;
         }
         textViewPoints = (TextView) findViewById(R.id.textViewPoints);
         String str = "POINTS: 0";
         textViewPoints.setText(str);
-        handlerProgress = new Handler() {
-            @Override
-            public void handleMessage(@NonNull Message msg) {
-                super.handleMessage(msg);
-                //progressBar.setProgress(msg.what);
-                //progressBar.invalidate();
-            }
-        };
         handlerTime = new Handler() {
             @Override
             public void handleMessage(@NonNull Message msg) {
@@ -263,17 +251,15 @@ public class GameActivity extends FragmentActivity {
 
     class TimeHelper extends TimerTask {
 
-        private final int originalTime;
         private int time;
 
         public TimeHelper(int time) {
-            this.time = this.originalTime = time;
+            this.time = time;
         }
 
         @Override
         public void run() {
             if (time >= 0) {
-                handlerProgress.sendEmptyMessage((time * 100 / originalTime));
                 handlerTime.sendEmptyMessage(time);
                 time--;
             } else {

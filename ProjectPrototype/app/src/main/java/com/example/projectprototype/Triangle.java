@@ -1,7 +1,5 @@
 package com.example.projectprototype;
 
-import android.graphics.Color;
-
 public class Triangle extends Figure {
 
     public Triangle(int i, int j) {

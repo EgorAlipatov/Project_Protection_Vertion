@@ -1,14 +1,10 @@
 package com.example.projectprototype;
 
-import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.Button;
-import android.widget.ImageButton;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -50,13 +46,6 @@ public class MainActivity extends AppCompatActivity {
         ((Button) findViewById(R.id.button30)).setOnClickListener(v -> newGame(0));
         ((Button) findViewById(R.id.button60)).setOnClickListener(v -> newGame(1));
         ((Button) findViewById(R.id.buttonNoTime)).setOnClickListener(v -> newGame(2));
-    }
-
-    private void deleteRecords() {
-        SharedPreferences.Editor editor = sPref.edit();
-        editor.putInt(RECORD_30, 0);
-        editor.putInt(RECORD_60, 0);
-        editor.commit();
     }
 
     private void newGame(int gameNumber) {

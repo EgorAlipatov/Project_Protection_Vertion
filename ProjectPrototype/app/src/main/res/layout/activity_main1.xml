@@ -44,37 +44,37 @@
             android:id="@+id/image2"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image3"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image4"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image5"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image6"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image7"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
     </LinearLayout>
 
@@ -88,43 +88,43 @@
             android:id="@+id/image8"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image9"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image10"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image11"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image12"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image13"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image14"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
     </LinearLayout>
 
@@ -138,43 +138,43 @@
             android:id="@+id/image15"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image16"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image17"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image18"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image19"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image20"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image21"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
     </LinearLayout>
 
@@ -188,43 +188,43 @@
             android:id="@+id/image22"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image23"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image24"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image25"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image26"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image27"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image28"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
 
     </LinearLayout>
@@ -239,43 +239,43 @@
             android:id="@+id/image29"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image30"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image31"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image32"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image33"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image34"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image35"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
 
     </LinearLayout>
@@ -290,43 +290,43 @@
             android:id="@+id/image36"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image37"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image38"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image39"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image40"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image41"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image42"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
 
     </LinearLayout>
@@ -341,43 +341,43 @@
             android:id="@+id/image43"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image44"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image45"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image46"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image47"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image48"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
         <ImageButton
             android:id="@+id/image49"
             android:layout_width="52dp"
             android:layout_height="52dp"
-            android:src="@drawable/gray" />
+            android:src="@drawable/star1" />
 
     </LinearLayout>
 

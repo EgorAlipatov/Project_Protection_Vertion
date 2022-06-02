@@ -1,7 +1,5 @@
 package com.example.projectprototype;
 
-import android.graphics.Color;
-
 public class Square extends Figure {
 
     public Square(int i, int j) {

@@ -16,14 +16,6 @@ public class Figure {
         this.imageButton = 0;
     }
 
-    public Figure getFigure(int figureKey) {
-        if (figureKey == 0) return new Circle(i, j);
-        else if (figureKey == 1) return new Square(i, j);
-        else if (figureKey == 2) return new Triangle(i, j);
-        else if (figureKey == 3) return new Pentagon(i, j);
-        return new Star(i, j);
-    }
-
     class ArraysHelper {
 
         private final TextView textView;
@@ -177,22 +169,8 @@ public class Figure {
             return checkNext;
         }
 
-        public void specialFill(int[] arr) {
-            int counter = 0;
-            for (int i = 0; i < array.length; i++) {
-                for (int j = 0; j < array[i].length; j++) {
-                    putFigure(j, i, getFigure(arr[counter]));
-                    counter++;
-                }
-            }
-        }
-
         public int getGamePoints() {
             return gamePoints;
-        }
-
-        public ImageButton getButton(int i, int j) {
-            return buttons[i][j];
         }
 
         public boolean threeInARow(int i, int j, int i1, int j1) {
@@ -358,20 +336,8 @@ public class Figure {
             return true;
         }
 
-        public void clickImitation(int i, int j) {
-            buttons[i][j].callOnClick();
-        }
-
         public void putButton(int i, int j, ImageButton button) {
             buttons[i][j] = button;
-        }
-
-        public void putFigure(int i, int j, Figure figure) {
-            array[i][j] = figure;
-        }
-
-        public Figure getItem(int i, int j) {
-            return array[i][j];
         }
 
         private void setClicksAround(int i, int j) {
